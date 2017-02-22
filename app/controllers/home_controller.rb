@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
 	def hello
-		@name = parms[:my_name]
+		@name = params[:my_name]
 	end
 end
